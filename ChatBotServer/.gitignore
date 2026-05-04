@@ -1,12 +1,12 @@
-# Ignore binary files
+# Build results
+bin/
+obj/
+*.exe
+*.dll
 *.bin
 
-# Ignore build outputs
-/dist
-/build
-
-# Ignore node_modules (nếu là dự án Node.js)
-node_modules/
-
-# Ignore logs
+# User-specific files
+*.user
+*.suo
+*.cache
 *.log
